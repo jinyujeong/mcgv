@@ -14,7 +14,7 @@
 #header h1{padding: 8px 0 7px 16px; width: 63px; height: 27px;}
 .lnb{position: absolute; right: 16px; top: 8px; overflow: hidden;}
 .lnb .count{float: left; padding-right: 23px;padding-top: 4px;}
-.lnb .count a{font-size: 13px; width: 20px;height: 19px; text-align: center; line-height: 19px; display: block; border:1px solid #030303; border-radius: 50%; font-weight: 600;}
+.lnb .count a{font-size: 13px; width: 20px;height: 19px; text-align: center; line-height: 21px; display: block; border:1px solid #030303; border-radius: 50%; font-weight: 600;}
 .lnb .alarm{float: left; padding-right: 23px;}
 .lnb .alarm a{font-size: 18px;}
 .lnb .s_menu{float: left; padding-top: 8px;}
