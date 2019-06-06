@@ -38,7 +38,7 @@
 
 .banner_text{padding: 12px; position: relative;}
 .banner_text img{width: 40px;}
-.banner_text p{display: inline-block; font-size: 14px; padding-left: 10px; width: 225px; overflow:  hidden;text-overflow: ellipsis; white-space: nowrap;}
+.banner_text p{display: inline-block; font-size: 14px; padding-left: 10px; width: 220px; overflow:  hidden;text-overflow: ellipsis; white-space: nowrap;}
 .banner_text span{display: block; font-size: 11px; color:#9aa0ab;}
 .banner_text a{width: 66px; text-align: center; border:1px solid #9599a0; border-radius: 3px; display: inline-block; position: absolute; right: 12px; bottom: 18px; line-height: 26px; color:#9599a0;}
 
@@ -49,11 +49,11 @@
 .res_top li:first-child:before{content:""; width: 2px; height: 2px; border-radius: 50%; background:#9197a3; position: absolute; right: 0;top: 10px;}
 .res_top li a{font-size: 14px; color:#9197a3;}
 .res_top li.active a{color:#000;}
-.res_top li.soon a{width: 62px; text-align: center; display: inline-block; line-height: 24px; border:1px solid #9197a3; font-size: 11px; margin-left: 7px;}
-.res_top>a{font-size: 9px; color:#9197a3; position: absolute; right: 14px; top: 8px;}
-.res_top>a i{padding-left: 8px;}
+.res_top li.soon a{width: 62px; text-align: center; display: inline-block; line-height: 24px; border:1px solid #9197a3; font-size: 11px; margin-left: 5px;}
+.res_top>a{font-size: 12px; color:#9197a3; position: absolute; right: 14px; top: 8px;}
+.res_top>a i{padding-left: 5px;}
 
-.res_center{padding: 12px 0 23px 0;}
+.res_center{padding: 12px 0 12px 0;}
 .res_center ul{}
 .res_center li{display: inline; padding-right: 12px;}
 .res_center li a{color:#9197a3;}
@@ -68,10 +68,10 @@
 .res_bottom .poster img:after{content:""; width: 100%; height: 100%; background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.4));; position: absolute; left: 0; top: 0;}
 .res_bottom .poster p.ranking{font-size: 28px; color:#fff; font-style: italic; position: absolute; left: 10px; top: 150px; z-index: 2;}
 .res_bottom .poster h3{font-size: 12px; padding-top: 9px; text-align: center;}
-.res_bottom .poster ul{padding-left: 40px; position: relative; margin-bottom: 10px;}
-.res_bottom .poster li{display: inline-block;  font-size: 9px; line-height: 17px; position: relative;padding-right: 5px;}
+.res_bottom .poster ul{padding-left:30px; position: relative; margin-bottom: 10px;}
+.res_bottom .poster li{display: inline-block;  font-size: 11px; line-height: 17px; position: relative;padding-right: 5px;}
 .res_bottom .poster li:nth-child(2):before{content:"";width: 1px; height: 1px; border-radius: 50%; background:#000; position: absolute; right: 0;top: 8px;}
-.res_bottom .poster li.egg{background:url(../img/sprite.png) no-repeat -29px -129px;width: 10px; height: 17px; position: absolute; left: 24px; top: 4px;}
+.res_bottom .poster li.egg{background:url(../img/sprite.png) no-repeat -29px -129px;width: 10px; height: 17px; position: absolute; left: 14px; top: 4px;}
 .res_bottom .poster a.now{width: 106px; display:block; border:1px solid #9599a0; line-height: 26px; color:#9599a0; text-align: center; font-size: 11px; border-radius: 45px; margin: 0 auto;}
 
 /*unit*/
@@ -79,8 +79,8 @@
 .unit ul{overflow: hidden;}
 .unit li{float: left; width: 33.333%; padding: 20px 0;}
 .unit li a{display: block; text-align: center;}
-.unit li img{width: 22px;display: block; margin: 0 auto;}
-.unit li span{font-size: 11px;}
+.unit li img{width: 28px;display: block; margin: 0 auto; padding-bottom: 8px;}
+.unit li span{font-size: 12px;}
 
 /*like*/
 #like h2{padding-bottom: 17px; font-size: 14px; font-weight: bold;}
