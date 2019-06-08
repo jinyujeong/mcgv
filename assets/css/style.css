@@ -65,11 +65,15 @@
 .res_bottom .ad{width: 293px; height: 211px; margin-right: 3px;}
 .res_bottom .ad.rocketman_ad{background:url(../img/rocketman_ad.jpg) no-repeat center top; width: 293px; height: 211px;background-size:contain;}
 .res_bottom .ad.toystory_ad{background:url(../img/toystory_ad.jpg) no-repeat center top; background-size:contain;}
-.res_bottom .ad.blackmirror_ad{background:url(../img/blackmirror_ad.jpg) no-repeat center top;background-size:contain;}
-.res_bottom .poster a{}
-.res_bottom .poster img{position: relative;}
-.res_bottom .poster img:after{content:""; width: 100%; height: 100%; background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.4));; position: absolute; left: 0; top: 0;}
-.res_bottom .poster p.ranking{font-size: 28px; color:#fff; font-style: italic; position: absolute; left: 10px; top: 150px; z-index: 2;}
+.res_bottom .poster a.after{position: relative; display: block; width: 100%; height: 100%;}
+.res_bottom .poster a img{z-index: 0;}
+.res_bottom .poster a.after:after{content: ''; display: block;
+    position: absolute;  
+    z-index: 2; 
+    left: 0; top: 0; 
+    width: 100%; height: 212px; 
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.4));}
+.res_bottom .poster p.ranking{font-size: 28px; color:#fff; font-style: italic; position: absolute; left: 10px; bottom: 77px; z-index: 2;}
 .res_bottom .poster h3{font-size: 12px; padding-top: 9px; text-align: center;}
 .res_bottom .poster ul{padding-left:30px; position: relative; margin-bottom: 10px;}
 .res_bottom .poster li{display: inline-block;  font-size: 11px; line-height: 17px; position: relative;padding-right: 5px;}
